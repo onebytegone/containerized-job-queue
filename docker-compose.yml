@@ -1,11 +1,11 @@
 version: '3'
 services:
    dashboard:
-      image: 'mixmaxhq/arena'
+      # Not using the prebuild container as it is out of date
+      # See: https://github.com/bee-queue/arena/issues/93
+      build: ./services/dashboard
       ports:
          - '3001:4567'
-      volumes:
-         - ./services/dashboard/index.json:/opt/arena/src/server/config/index.json
    producer:
       build: ./services/producer
       ports:

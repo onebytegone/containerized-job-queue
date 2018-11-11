@@ -1,0 +1,18 @@
+{
+  "name": "containerized-job-queue-dashboard",
+  "version": "0.1.0",
+  "description": "A dashboard for a sample queue infrastructure using Docker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onebytegone/containerized-job-queue.git"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./src/index.js"
+  },
+  "author": "Ethan Smith",
+  "license": "MIT",
+  "dependencies": {
+    "bull-arena": "2.5.0",
+    "nodemon": "1.18.6"
+  }
+}
