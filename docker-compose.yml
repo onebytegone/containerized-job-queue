@@ -1,0 +1,6 @@
+version: '3'
+services:
+   worker:
+      build: ./services/worker
+   redis:
+      image: 'redis:alpine'

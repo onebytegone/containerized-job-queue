@@ -1,0 +1,15 @@
+{
+  "name": "containerized-job-queue",
+  "version": "0.1.0",
+  "description": "A small PoC for a Node.js + Redis work queue infrastructure using Docker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onebytegone/containerized-job-queue.git"
+  },
+  "scripts": {
+    "postinstall": "./bin/install-all.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Smith",
+  "license": "MIT"
+}
