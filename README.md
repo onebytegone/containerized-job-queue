@@ -18,7 +18,7 @@ git clone git@github.com:onebytegone/containerized-job-queue.git
 cd containerized-job-queue
 docker-compose up
 open 'http://localhost:3000' # Open the job producer web app
-open 'http://localhost:3001' # Open the job dashborad
+open 'http://localhost:3001' # Open the job dashboard
 ```
 
 [installing-docker]: https://docs.docker.com/install/
