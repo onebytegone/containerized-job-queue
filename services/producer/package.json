@@ -1,0 +1,19 @@
+{
+  "name": "containerized-job-queue-producer",
+  "version": "0.1.0",
+  "description": "A producer for a sample queue infrastructure using Docker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onebytegone/containerized-job-queue.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Ethan Smith",
+  "license": "MIT",
+  "dependencies": {
+    "bull": "3.4.8",
+    "express": "4.16.4"
+  }
+}

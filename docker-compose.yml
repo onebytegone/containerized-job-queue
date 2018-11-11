@@ -1,5 +1,9 @@
 version: '3'
 services:
+   producer:
+      build: ./services/producer
+      ports:
+         - '3000:3000'
    worker:
       build: ./services/worker
    redis:
