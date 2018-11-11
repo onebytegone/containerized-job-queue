@@ -1,5 +1,11 @@
 version: '3'
 services:
+   dashboard:
+      image: 'mixmaxhq/arena'
+      ports:
+         - '3001:4567'
+      volumes:
+         - ./services/dashboard/index.json:/opt/arena/src/server/config/index.json
    producer:
       build: ./services/producer
       ports:

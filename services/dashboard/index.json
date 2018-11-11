@@ -1,0 +1,10 @@
+{
+   "queues": [
+      {
+         "name": "jobs",
+         "hostId": "Job Queue",
+         "host": "redis",
+         "port": 6379
+      }
+   ]
+}
